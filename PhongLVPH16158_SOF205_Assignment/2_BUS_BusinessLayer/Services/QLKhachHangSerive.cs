@@ -54,7 +54,7 @@ namespace _2_BUS_BusinessLayer.Services
         {
             return _lstKhachHangBUS.Where(c => c.TenKhach.StartsWith(temp) || c.DienThoai.StartsWith(temp)).ToList();
 
-
+            //sdasdasdadsadad
         }
         public bool Checksdt(string sdt)
         {
